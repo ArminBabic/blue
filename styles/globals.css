@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  .fade-in-section {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 1200ms ease-out, transform 600ms ease-out,
+      visibility 1200ms ease-out;
+    will-change: opacity, transform, visibility;
+  }
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+
+  .home {
+    background: radial-gradient(
+        105.62% 158.43% at -15.26% 138.38%,
+        #0087d3 0%,
+        #0b1132 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  }
+
+  .values {
+    background: radial-gradient(
+      105.62% 158.43% at -15.26% 138.38%,
+      #171426 0%,
+      #0a254c 100%
+    );
+  }
+
+  header {
+    @apply flex items-center justify-between  py-4  transition-all lg:px-1 lg:py-5;
+  }
+
+  h2.gradient-text {
+    background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+    -webkit-background-clip: text; /* apply background clip */
+    -webkit-text-fill-color: transparent;
+  }
+
+  .notebook-img {
+  }
+}
+
+@layer components {
+  .headerLink {
+    margin-top: 3%;
+  }
+
+  .headerLink {
+    @apply cursor-pointer text-base text-[#FFFFFF] transition duration-[.4s] hover:underline;
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+/* purgecss start ignore */

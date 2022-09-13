@@ -1,0 +1,56 @@
+//prvi zadatak
+
+const cities = [
+    "miami",
+    "barcelona",
+    "madrid",
+    "amsterdam",
+    "berlin",
+    "sao paulo",
+    "lisbon",
+    "mexico city",
+    "paris",
+    ];
+
+
+   for (var i = 0; i < cities.length; i++) {
+        cities[i] = cities[i].charAt(0).toUpperCase() + cities[i].slice(1)
+    }
+
+    cities.forEach((item) => {
+    console.log(cities.indexOf(item) + ". " + item);
+    }); 
+//ovde ne znam kako da pocne od 1, ne od nula, probala sam sa item + 1, ali ne funkcioniše
+
+
+
+//drugi zadatak
+
+
+let cities2 = cities
+ .map((item) => {
+    return <p>${item} </p>;   
+  })
+.join("\n");
+
+console.log(cities2);
+
+//ovako smo radili na casu zajedno, ali kad stavim ovo  return <p>${item} </p>;  pokazuje mi gresku Uncaught     SyntaxError: Unexpected token '<', isto mi se desva kada prekopiram nas primer sa casa
+
+
+
+//treci zadatak
+const madrid = cities.indexOf("madrid");
+const lisbon = cities.indexOf("lisbon");
+const cities3 = cities.slice(2,7);
+
+console.log(cities3);
+
+
+//cetvrti zadatak 
+
+cities.push("belgrade", "new york", "chicago");
+cities.unshift("los angeles");
+console.log(cities);
+
+
