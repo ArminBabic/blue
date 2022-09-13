@@ -60,19 +60,14 @@ function Projects() {
           className="rounded-xl shadow-2xl sm:w-96 sm:h-96"
         />
 
-        <motion.div
-          ref={refe}
-          variants={boxVariant}
-          initial="hidden"
-          animate={control}
-        >
+        <div>
           <Image
             src={project4}
             width={450}
             height={450}
             className="rounded-xl shadow-2xl sm:w-96 sm:h-96"
           />
-        </motion.div>
+        </div>
       </div>
     </section>
   );
