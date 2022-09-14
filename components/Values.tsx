@@ -29,14 +29,14 @@ function Values() {
         animate={control}
         className="max-w-[750px] text-center px-8 "
       >
-        <h2 className="text-white text-4xl lg:text-5xl font-medium max-w-[724px]">
+        <h2 className="text-white text-2xl md:text-4xl lg:text-5xl font-medium max-w-[724px]">
           We care about...{" "}
           <span className="underline underline-offset-8 text-[#C2D5FE]">
             People
           </span>
         </h2>
 
-        <p className="justify-self-start max-w-[526px] py-6 text-white">
+        <p className="justify-self-start text-sm sm:text-lg max-w-[526px] py-6 text-white">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
           massa tincidunt tincidunt massa elit elit tortor. A odio donec et, cum
           at ut gravida. Tellus sit nulla blandit ac tincidunts.
