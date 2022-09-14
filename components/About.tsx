@@ -48,7 +48,7 @@ function About() {
         </h2>
       </div>
 
-      <div className="text-center sm:text-start flex lg:flex-row flex-col items-center  justify-between  pt-12 lg:mt-12 lg:ml-32 md:ml-20 ml-12 mr-12 md:mr-20 lg:mr-32 ">
+      <div className="text-center sm:text-start flex lg:flex-row flex-col items-center  justify-around  pt-12  ">
         <div className="  text-1xl  text-[#081944] h-96 w-96  opacity-60 ">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla
@@ -72,7 +72,7 @@ function About() {
           </ul>
         </div>
 
-        <div className="shadow-2xl max-w-[800px] flex flex-col md:flex-row items-center   max-h-[850px] rounded-xl bg-[#e5e7eb]">
+        <div className="shadow-2xl max-w-[750px] flex flex-col md:flex-row items-center   max-h-[850px] rounded-xl bg-[#e5e7eb]">
           <div className="pt-4 px-8 md:px-0 md:py-12 md:pl-8">
             <div className="w-[260px] h-[52px] mb-2 md:mb-6   bg-slate-100 rounded-xl flex">
               <div className="bg-[#6187FF] rounded-full flex justify-center items-center px-2 ">
@@ -118,9 +118,9 @@ function About() {
         initial="hidden"
         animate={control}
         id="services"
-        className=" py-24 p-7 grid md:grid-cols-2 lg:grid-cols-4  gap-6 justify-items-center  justify-center items-center"
+        className=" py-24 lg:p-7 grid md:grid-cols-2 lg:grid-cols-4  gap-4 justify-items-center  justify-center items-center"
       >
-        <article className="w-64 h-64 bg-[#f0f2f6] shadow-2xl rounded-xl flex flex-col items-center justify-center text-center  ">
+        <article className="w-64 h-64 bg-[#f0f2f6] shadow-2xl rounded-xl flex flex-col items-center justify-center text-center o ">
           <div className="w-14 h-14 bg-white rounded-2xl rotate-45  mb-5 flex items-center justify-center  ">
             <HiCode className="-rotate-45 text-[#6187FF] w-8 h-6" />
           </div>

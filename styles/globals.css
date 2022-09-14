@@ -54,11 +54,11 @@ html {
 
 @layer components {
   .headerLink {
-    margin-top: 3%;
+    @apply cursor-pointer text-center  p-2 text-[#FFFFFF] transition duration-[.4s] hover:underline;
   }
 
-  .headerLink {
-    @apply cursor-pointer text-base text-[#FFFFFF] transition duration-[.4s] hover:underline;
+  .headerLinkMobile {
+    @apply cursor-pointer text-center text-xl p-2 text-[#FFFFFF] transition duration-[.4s] hover:underline;
   }
 }
 

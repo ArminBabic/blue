@@ -29,7 +29,7 @@ function Hero() {
   return (
     <section
       id="hero"
-      className=" flex flex-col justify-between md:flex md:flex-col lg:flex lg:flex-row lg:justify-between  hero lg:ml-24 mt-32 "
+      className=" flex flex-col justify-between md:flex md:flex-col lg:flex lg:flex-row lg:justify-between  hero lg:ml-16 mt-32 "
     >
       <motion.div
         ref={ref}
