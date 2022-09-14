@@ -32,13 +32,16 @@ function About() {
   };
 
   return (
-    <section id="about" className="bg-[#dce0e9]">
-      <div className="text-center lg:text-start">
-        <h2 className="text-5xl lg:text-6xl font-bold pt-16 lg:pt-32 lg:ml-32 md:ml-20 ml-12">
+    <section
+      id="about"
+      className="bg-[#dce0e9] flex flex-col items-center xl:block "
+    >
+      <div className="text-center xl:text-start">
+        <h2 className="text-5xl lg:text-6xl font-bold pt-16 lg:pt-32 xl:ml-32 xl:ml-20 ">
           Turning Your
         </h2>
         <br />
-        <h2 className=" text-5xl lg:text-6xl font-bold  lg:ml-20 md:ml-8 ml-12 ">
+        <h2 className=" text-5xl lg:text-6xl font-bold  xl:ml-20 xl:ml-8  ">
           <span className="text-[#5889F1] pr-8 ">
             <HiSparkles className="inline text-[#BED1FB]" />
             Imagination
@@ -48,8 +51,8 @@ function About() {
         </h2>
       </div>
 
-      <div className="text-center sm:text-start flex lg:flex-row flex-col items-center  justify-around  pt-12  ">
-        <div className="  text-1xl  text-[#081944] h-96 w-96  opacity-60 ">
+      <div className="text-center sm:text-start  flex flex-col xl:flex-row items-center md:gap-12  xl:justify-around  pt-12  ">
+        <div className="md:flex-1 xl:flex-none text-1xl sm:text-center md:text-start text-[#081944] w-96 h-96 sm:w-[500px] md:w-[700px] xl:h-96 xl:w-96  opacity-80 ">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla
             magna euismod rhoncus adipiscing pulvinar. Dui volutpat elit
@@ -72,8 +75,8 @@ function About() {
           </ul>
         </div>
 
-        <div className="shadow-2xl max-w-[750px] flex flex-col md:flex-row items-center   max-h-[850px] rounded-xl bg-[#e5e7eb]">
-          <div className="pt-4 px-8 md:px-0 md:py-12 md:pl-8">
+        <div className="md:flex-1 xl:flex-none shadow-2xl max-w-[730px] flex flex-col md:flex-row items-center   max-h-[850px] xl:h-96 rounded-xl bg-[#e5e7eb]">
+          <div className="pt-4 px-8 md:px-0 md:py-12  md:pl-8 ">
             <div className="w-[260px] h-[52px] mb-2 md:mb-6   bg-slate-100 rounded-xl flex">
               <div className="bg-[#6187FF] rounded-full flex justify-center items-center px-2 ">
                 <HiPuzzle className="text-white  w-9 h-6 " />
@@ -92,7 +95,7 @@ function About() {
             <AiOutlineArrowDown className="w-8 h-8 text-indigo-600 md:-rotate-90 md:mx-4" />
           </div>
 
-          <div className="mt-2 md:mt-0 pb-4 md:py-12 md:pr-8 ">
+          <div className="mt-2 md:mt-0 pb-4 md:py-12  md:pr-8  ">
             <Image
               src={socialImg}
               width="273px"
@@ -118,7 +121,7 @@ function About() {
         initial="hidden"
         animate={control}
         id="services"
-        className=" py-24 lg:p-7 grid md:grid-cols-2 lg:grid-cols-4  gap-4 justify-items-center  justify-center items-center"
+        className=" py-24 lg:p-7 grid md:grid-cols-2 xl:grid-cols-4  gap-4 md:gap-24 mt-8 justify-items-center  justify-center items-center"
       >
         <article className="w-64 h-64 bg-[#f0f2f6] shadow-2xl rounded-xl flex flex-col items-center justify-center text-center o ">
           <div className="w-14 h-14 bg-white rounded-2xl rotate-45  mb-5 flex items-center justify-center  ">

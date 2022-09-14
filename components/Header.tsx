@@ -128,8 +128,8 @@ function Header() {
           ) : null}
         </div>
 
-        <div className="hidden space-x-4 lg:flex px-5">
-          <ul className="hidden space-x-4 lg:flex px-5">
+        <div className="hidden space-x-4 lg:flex ">
+          <ul className="hidden space-x-4 lg:flex items-center">
             <Link href="/#about">
               <li className="headerLink">About Us</li>
             </Link>
@@ -152,7 +152,7 @@ function Header() {
               <li className="headerLink">Team</li>
             </Link>
 
-            <button className=" headerLink text-white px-8 py-2 bg-[#5889f1] rounded-3xl hover:scale-105 transition duration-[.4s] mt-2">
+            <button className=" headerLink text-white px-8 py-2 bg-[#5889f1] rounded-3xl hover:scale-105 transition duration-[.4s] ">
               Contact Us
             </button>
           </ul>
