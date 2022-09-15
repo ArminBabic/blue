@@ -16,103 +16,6 @@ function Header() {
 
   const toggleHandler = () => setNav(!nav);
 
-  const mobileNav = (
-    <div
-      className={
-        nav
-          ? "fixed top-0 left-0 z-[100] w-full h-screen bg-black/70 ease-in duration-500 lg:hidden"
-          : ""
-      }
-    >
-      <aside
-        className={
-          nav
-            ? "fixed top-0 left-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen home ease-in duration-500"
-            : "fixed top-0 left-[100%]   ease-in duration-500"
-        }
-      >
-        <div>
-          <div className="flex items-center justify-around w-full pt-4">
-            <Image src={logo} alt="/" />
-
-            <div
-              onClick={toggleHandler}
-              className=" bg-white  border-collapse  rounded-2xl p-2 hover:scale-105 hover:bg-blue-200 cursor-pointer ease-in duration-300 shadow-md shadow-gray-500 "
-            >
-              <AiOutlineClose className=" text-indigo-700" />
-            </div>
-          </div>
-        </div>
-        <div className=" flex items-center justify-center">
-          <p className="text-white text-center  py-6 mt-8 border-b border-blue-400 w-[90%]">
-            Full In-House IT Solutions £ Services Company
-          </p>
-        </div>
-
-        <ul className=" flex flex-col justify-center items-center py-12">
-          <Link href="/#about">
-            <li
-              onClick={toggleHandler}
-              className="headerLink    w-full cursor-pointer hover:underline "
-            >
-              About Us
-            </li>
-          </Link>
-          <Link href="/#services">
-            <li
-              onClick={toggleHandler}
-              className="headerLink   w-full cursor-pointer hover:underline"
-            >
-              Services
-            </li>
-          </Link>
-          <Link href="/#projects">
-            <li
-              onClick={toggleHandler}
-              className="headerLink   w-full cursor-pointer hover:underline"
-            >
-              Projects
-            </li>
-          </Link>
-
-          <Link href="/#values">
-            <li
-              onClick={toggleHandler}
-              className="headerLink   w-full cursor-pointer hover:underline"
-            >
-              Values
-            </li>
-          </Link>
-
-          <Link href="/#why">
-            <li
-              onClick={toggleHandler}
-              className="headerLink   w-full cursor-pointer hover:underline"
-            >
-              Why BlueDuck
-            </li>
-          </Link>
-
-          <Link href="/#team">
-            <li
-              onClick={toggleHandler}
-              className="headerLink   w-full cursor-pointer hover:underline"
-            >
-              Team
-            </li>
-          </Link>
-        </ul>
-
-        <div className="flex justify-center my-12 ">
-          <RiLinkedinFill className="bg-white rounded-xl m-4 w-6 h-6 p-1 hover:scale-105 hover:bg-blue-300 cursor-pointer text-blue-700 ease-in duration-300 shadow-md shadow-gray-500" />
-          <AiOutlineMail className="bg-white rounded-xl m-4 w-6 h-6 p-1 hover:scale-105 hover:bg-blue-300 cursor-pointer text-blue-700 ease-in duration-300 shadow-md shadow-gray-500" />
-          <AiOutlinePhone className="bg-white rounded-xl m-4 w-6 h-6 p-1 hover:scale-105 hover:bg-blue-300 cursor-pointer text-blue-700 ease-in duration-300 shadow-md shadow-gray-500" />
-          <BsPeople className="bg-white rounded-xl m-4 w-6 h-6 p-1 hover:scale-105 hover:bg-blue-300 cursor-pointer text-blue-700 ease-in duration-300 shadow-md shadow-gray-500" />
-        </div>
-      </aside>
-    </div>
-  );
-
   return (
     <nav>
       <div className=" lg:ml-16 flex justify-between items-center pt-2  px-2  ">
@@ -162,15 +65,15 @@ function Header() {
       <div
         className={
           nav
-            ? "fixed top-0 right-0 z-[100] w-full h-screen bg-black/70 ease-in duration-500 lg:hidden"
+            ? "fixed top-0 xs:right-0 z-[100] w-screen h-screen bg-black/70 ease-in duration-500 lg:hidden"
             : ""
         }
       >
         <aside
           className={
             nav
-              ? "fixed top-0 right-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen home ease-in duration-500"
-              : "fixed top-0 right-[-100%]   ease-in duration-500"
+              ? "fixed top-0  xs:right-0 w-screen sm:w-[75%] h-screen home ease-in duration-500"
+              : "fixed top-0  right-[-100%]   ease-in duration-500"
           }
         >
           <div>
@@ -246,10 +149,10 @@ function Header() {
           </ul>
 
           <div className="flex justify-center my-12 ">
-            <RiLinkedinFill className="bg-white rounded-xl m-4 w-6 h-6 p-1 hover:scale-105 hover:bg-blue-300 cursor-pointer text-blue-700 ease-in duration-300 shadow-md shadow-gray-500" />
-            <AiOutlineMail className="bg-white rounded-xl m-4 w-6 h-6 p-1 hover:scale-105 hover:bg-blue-300 cursor-pointer text-blue-700 ease-in duration-300 shadow-md shadow-gray-500" />
-            <AiOutlinePhone className="bg-white rounded-xl m-4 w-6 h-6 p-1 hover:scale-105 hover:bg-blue-300 cursor-pointer text-blue-700 ease-in duration-300 shadow-md shadow-gray-500" />
-            <BsPeople className="bg-white rounded-xl m-4 w-6 h-6 p-1 hover:scale-105 hover:bg-blue-300 cursor-pointer text-blue-700 ease-in duration-300 shadow-md shadow-gray-500" />
+            <RiLinkedinFill className="bg-white rounded-xl m-4 w-6 h-4 xs:h-6 p-1 hover:scale-105 hover:bg-blue-300 cursor-pointer text-blue-700 ease-in duration-300 shadow-md shadow-gray-500" />
+            <AiOutlineMail className="bg-white rounded-xl m-4 w-6 h-4 xs:h-6 p-1 hover:scale-105 hover:bg-blue-300 cursor-pointer text-blue-700 ease-in duration-300 shadow-md shadow-gray-500" />
+            <AiOutlinePhone className="bg-white rounded-xl m-4 w-6 h-4 xs:h-6 p-1 hover:scale-105 hover:bg-blue-300 cursor-pointer text-blue-700 ease-in duration-300 shadow-md shadow-gray-500" />
+            <BsPeople className="bg-white rounded-xl m-4 w-6 h-4 xs:h-6 p-1 hover:scale-105 hover:bg-blue-300 cursor-pointer text-blue-700 ease-in duration-300 shadow-md shadow-gray-500" />
           </div>
         </aside>
       </div>

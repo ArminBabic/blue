@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         <title>BlueDuck</title>
         <link rel="icon" href="" />
       </Head>
-      <section className="bg-[url('../images/bg.png')] bg-no-repeat bg-cover">
+      <section className="bg-[url('../images/bg.png')] bg-right bg-no-repeat bg-cover h-[1111px] ">
         <Header />
         <Hero />
       </section>

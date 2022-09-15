@@ -8,6 +8,8 @@ module.exports = {
     extend: {},
 
     screens: {
+      xs: "400px",
+
       sm: "640px",
       // => @media (min-width: 640px) { ... }
 
@@ -20,7 +22,7 @@ module.exports = {
       xl: "1160px",
       // => @media (min-width: 1280px) { ... }
 
-      "2xl": "1320px",
+      "2xl": "1310px",
       // => @media (min-width: 1536px) { ... }
     },
   },
