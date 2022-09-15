@@ -36,13 +36,13 @@ function About() {
       id="about"
       className="bg-[#dce0e9] flex flex-col items-center xl:block "
     >
-      <div className="text-center xl:text-start xl:ml-8 2xl:ml-48">
-        <h2 className="text-5xl lg:text-6xl font-bold pt-16 lg:pt-32 ">
+      <div className="text-center xl:text-start xl:ml-8 2xl:ml-52">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold pt-16 lg:pt-32 ">
           Turning Your
         </h2>
         <br />
-        <h2 className=" text-5xl lg:text-6xl font-bold   ">
-          <span className="text-[#5889F1] pr-8 ">
+        <h2 className=" text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold   ">
+          <span className="text-[#5889F1] pr-1 md:pr-8 ">
             <HiSparkles className="inline text-[#BED1FB]" />
             Imagination
             <HiSparkles className="inline text-[#6187FF]" />
@@ -52,14 +52,14 @@ function About() {
       </div>
 
       <div className="text-center sm:text-start  flex flex-col xl:flex-row items-center md:gap-12 xl:ml-8  xl:justify-center  pt-12  ">
-        <div className="md:flex-1 xl:flex-none text-1xl sm:text-center md:text-start text-[#081944] w-96 h-96 sm:w-[500px] md:w-[700px] xl:h-96 xl:w-96  opacity-80 ">
-          <p>
+        <div className="px-8 text-xs sm:text-sm md:flex-1 xl:flex-none text-1xl text-start sm:text-center md:text-start text-[#081944] px-8 sm:px-4 w-96 h-[400px] sm:w-[500px] md:w-[700px] xl:h-96 xl:w-96  opacity-80 ">
+          <p className="text-center xl:text-start">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla
             magna euismod rhoncus adipiscing pulvinar. Dui volutpat elit
             tincidunt ullamcorper tincidunt. Volutpat semper ac turpis urna dui
             id.
           </p>
-          <ul className="list-disc pt-2 sm:ml-4 leading-8">
+          <ul className="sm:text-center mx-8 xl:text-start list-disc pt-2 sm:ml-4 leading-8">
             <li>
               At leo commodo scelerisque vitae fames metus felis. Ultrices enim
               fermentum, ipsum, nisl.
@@ -75,33 +75,37 @@ function About() {
           </ul>
         </div>
 
-        <div className="md:flex-1 xl:flex-none shadow-2xl max-w-[730px] flex flex-col md:flex-row items-center   max-h-[850px] xl:h-96 rounded-xl bg-[#e5e7eb]">
-          <div className="pt-4 px-8 md:px-0 md:py-12  md:pl-8 ">
+        <div className="md:flex-1 xl:flex-none shadow-2xl max-w-[650px] md:max-w-[730px] flex flex-col md:flex-row items-center max-h-[750]  md:max-h-[850px] xl:h-96 rounded-xl bg-[#e5e7eb]">
+          <div className="pt-4 sm:pt-8 px-4 sm:px-24 md:px-8 md:px-0 md:py-12  md:pl-8 ">
             <div className="w-[260px] h-[52px] mb-2 md:mb-6   bg-slate-100 rounded-xl flex">
               <div className="bg-[#6187FF] rounded-full flex justify-center items-center px-2 ">
                 <HiPuzzle className="text-white  w-9 h-6 " />
               </div>
               <h5 className="font-bold px-2">Development customized for you</h5>
             </div>
-
-            <Image
-              src={blankImg}
-              width="273px"
-              height="171px"
-              className="rounded-xl shadow-2xl  "
-            />
+            <div>
+              <Image
+                src={blankImg}
+                width="273px"
+                height="171px"
+                className="rounded-xl shadow-2xl  "
+              />
+            </div>
           </div>
           <div>
             <AiOutlineArrowDown className="w-8 h-8 text-indigo-600 md:-rotate-90 md:mx-4" />
           </div>
 
-          <div className="mt-2 md:mt-0 pb-4 md:py-12  md:pr-8  ">
-            <Image
-              src={socialImg}
-              width="273px"
-              height="171px"
-              className="rounded-xl shadow-2xl "
-            />
+          <div className="mt-2 md:mt-0  md:py-12  md:pr-8 pb-8 sm:pb-4  ">
+            <div>
+              <Image
+                src={socialImg}
+                width="273px"
+                height="171px"
+                className="rounded-xl shadow-2xl "
+              />
+            </div>
+
             <div className="w-[260px] h-[52px] md:mt-6 bg-slate-100 rounded-xl flex">
               <Image
                 src={smallImg}

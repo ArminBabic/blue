@@ -63,7 +63,7 @@ function Hero() {
           <HiChatAlt2 className="img-popup text-white w-7 h-7 " />
         </div>
 
-        <p className="text-white px-2 text-sm opacity-80">
+        <p className="text-white px-2 text-xs sm:text-sm opacity-80">
           IT Consulting for your everyday concerns
         </p>
       </article>
@@ -77,7 +77,7 @@ function Hero() {
         </div>
 
         <div className=" max-w-[164px]">
-          <p className="text-white p-2 text-sm opacity-80">
+          <p className="text-white p-2 text-xs sm:text-sm opacity-80">
             Dedicated team of experts at your hand
           </p>
         </div>
@@ -88,7 +88,7 @@ function Hero() {
         </div>
 
         <div className="max-w-[164px]">
-          <p className="text-white p-2 text-sm opacity-80">
+          <p className="text-white p-2 text-xs sm:text-sm opacity-80">
             Creative solutions designed to suit you
           </p>
         </div>

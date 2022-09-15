@@ -28,9 +28,11 @@ function Projects() {
 
   return (
     <section id="projects" className="bg-[#dce0e9]">
-      <h2 className="text-[#081944] text-5xl lg:text-6xl font-bold lg:px-32 md:px-12">
-        Recent <span className="text-[#5889F1]">Projects</span>
-      </h2>
+      <div className="text-center md:text-start">
+        <h2 className="text-[#081944] text-4xl md:text-5xl lg:text-6xl font-bold lg:px-32 md:px-12">
+          Recent <span className="text-[#5889F1]">Projects</span>
+        </h2>
+      </div>
 
       <div className="grid lg:grid-cols-2 gap-7 justify-items-center  justify-center items-center mt-9 pb-14">
         <motion.div

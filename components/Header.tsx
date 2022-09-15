@@ -162,15 +162,15 @@ function Header() {
       <div
         className={
           nav
-            ? "fixed top-0 left-0 z-[100] w-full h-screen bg-black/70 ease-in duration-500 lg:hidden"
+            ? "fixed top-0 right-0 z-[100] w-full h-screen bg-black/70 ease-in duration-500 lg:hidden"
             : ""
         }
       >
         <aside
           className={
             nav
-              ? "fixed top-0 left-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen home ease-in duration-500"
-              : "fixed top-0 left-[-100%]   ease-in duration-500"
+              ? "fixed top-0 right-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen home ease-in duration-500"
+              : "fixed top-0 right-[-100%]   ease-in duration-500"
           }
         >
           <div>
