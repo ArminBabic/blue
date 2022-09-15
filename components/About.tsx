@@ -125,7 +125,7 @@ function About() {
         initial="hidden"
         animate={control}
         id="services"
-        className=" py-24 lg:px-16 xl:px-0 2xl:flex 2xl:gap-16 lg:p-7 grid md:grid-cols-2 xl:grid-cols-4  gap-4  md:gap-8 lg:gap-16 2xl:gap-0   mt-8 justify-items-center  justify-center items-center"
+        className=" py-24 lg:px-16 xl:px-0 2xl:flex 2xl:gap-16 lg:p-7 grid md:grid-cols-2 xl:grid-cols-4  gap-4  md:gap-8 lg:gap-16   mt-8 justify-items-center  justify-center items-center"
       >
         <article className=" w-64 h-64 2xl:w-80 bg-[#f0f2f6] shadow-2xl rounded-xl flex flex-col items-center justify-center text-center o ">
           <div className="w-14 h-14 bg-white rounded-2xl rotate-45  mb-5 flex items-center justify-center  ">
