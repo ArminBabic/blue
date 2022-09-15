@@ -58,7 +58,7 @@ function Hero() {
         </button>
       </motion.div>
 
-      <article className="my-3 w-[50%] sm:w-[40%] md:w-[30%] max-h-[58px] flex items-center lg:hidden 2xl:flex 2xl:absolute top-48 right-52 xl:max-w-[217px] max-h-[52px] backdrop-opacity-10 backdrop-invert bg-white/20 rounded-xl ">
+      <article className="my-3 w-[60%] xs:w-[50%] sm:w-[40%] md:w-[30%] max-h-[58px] flex items-center lg:hidden 2xl:flex 2xl:absolute top-48 right-52 xl:max-w-[217px] max-h-[52px] backdrop-opacity-10 backdrop-invert bg-white/20 rounded-xl ">
         <div className="bg-indigo-500 flex justify-center items-center p-2 m-2 rounded-full">
           <HiChatAlt2 className="img-popup text-white w-7 h-7 " />
         </div>
@@ -67,7 +67,7 @@ function Hero() {
           IT Consulting for your everyday concerns
         </p>
       </article>
-      <article className="my-3 w-[50%] sm:w-[40%] md:w-[30%] max-h-[58px] flex items-center lg:justify-around lg:hidden 2xl:flex 2xl:absolute bottom-44 right-[430px] xl:max-w-[290px] max-h-[58px] backdrop-opacity-10 backdrop-invert bg-white/20 rounded-xl  ">
+      <article className="my-3 w-[60%] xs:w-[50%] sm:w-[40%] md:w-[30%] max-h-[58px] flex items-center lg:justify-around lg:hidden 2xl:flex 2xl:absolute bottom-44 right-[430px] xl:max-w-[290px] max-h-[58px] backdrop-opacity-10 backdrop-invert bg-white/20 rounded-xl  ">
         <div className="flex items-center m-2">
           <Image
             className=" w-[42px] h-[42px] mx-2"
@@ -82,7 +82,7 @@ function Hero() {
           </p>
         </div>
       </article>
-      <article className="my-3 w-[50%] sm:w-[40%] md:w-[30%] max-h-[58px] flex lg:hidden 2xl:flex 2xl:absolute bottom-4 opacity-80 right-52 xl:max-w-[217px] max-h-[52px]max-w-[217px] max-h-[52px]  backdrop-opacity-10 backdrop-invert bg-white/20 rounded-xl ">
+      <article className="my-3 w-[60%] xs:w-[50%] sm:w-[40%] md:w-[30%] max-h-[58px] flex lg:hidden 2xl:flex 2xl:absolute bottom-4 opacity-80 right-52 xl:max-w-[217px] max-h-[52px]max-w-[217px] max-h-[52px]  backdrop-opacity-10 backdrop-invert bg-white/20 rounded-xl ">
         <div className="bg-[#6187FF] flex justify-center items-center px-2 rounded-full m-2">
           <HiLightBulb className="text-white w-6 h-6" />
         </div>

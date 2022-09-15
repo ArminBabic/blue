@@ -9,6 +9,7 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import Values from "../components/Values";
 import Projects from "../components/Projects";
+import Why from "../components/Why";
 
 const Home: NextPage = () => {
   return (
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
       <About />
       <Projects />
       <Values />
+      <Why />
 
       <main>
         <section></section>

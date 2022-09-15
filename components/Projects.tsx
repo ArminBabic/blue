@@ -28,46 +28,48 @@ function Projects() {
 
   return (
     <section id="projects" className="bg-[#dce0e9]">
-      <div className="text-center md:text-start">
+      <div className="text-center lg:text-start py-8">
         <h2 className="text-[#081944] text-4xl md:text-5xl lg:text-6xl font-bold lg:px-32 md:px-12">
           Recent <span className="text-[#5889F1]">Projects</span>
         </h2>
       </div>
 
-      <div className="grid lg:grid-cols-2 gap-7 justify-items-center  justify-center items-center mt-9 pb-14">
+      <div className="grid lg:grid-cols-2 gap-4  place-items-center lg:gap-24 mt-9 pb-14">
         <motion.div
           ref={ref}
           variants={boxVariant}
           initial="hidden"
           animate={control}
+          className="flex justify-between items-center max-w-[450px]  max-h-[450px] lg:place-self-end"
         >
+          <Image src={project1} className="rounded-xl shadow-2xl  " />
+        </motion.div>
+
+        <div className="flex justify-center items-center lg:place-self-start">
           <Image
-            src={project1}
+            src={project2}
             width={450}
             height={450}
             className="rounded-xl shadow-2xl "
           />
-        </motion.div>
+        </div>
 
-        <Image
-          src={project2}
-          width={450}
-          height={450}
-          className="rounded-xl shadow-2xl sm:w-80 sm:h-80"
-        />
-        <Image
-          src={project3}
-          width={450}
-          height={450}
-          className="rounded-xl shadow-2xl sm:w-96 sm:h-96"
-        />
+        <div className="flex justify-center items-center lg:place-self-end">
+          {" "}
+          <Image
+            src={project3}
+            width={450}
+            height={450}
+            className="rounded-xl shadow-2xl  "
+          />
+        </div>
 
-        <div>
+        <div className="flex justify-center items-center lg:place-self-start">
           <Image
             src={project4}
             width={450}
             height={450}
-            className="rounded-xl shadow-2xl sm:w-96 sm:h-96"
+            className="rounded-xl shadow-2xl  "
           />
         </div>
       </div>

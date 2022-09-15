@@ -21,7 +21,10 @@ function Values() {
   };
 
   return (
-    <section className="values flex flex-col items-center justify-center py-20 ">
+    <section
+      id="values"
+      className="values flex flex-col items-center justify-center py-20 "
+    >
       <motion.div
         ref={ref}
         variants={boxVariant}
