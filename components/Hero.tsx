@@ -53,7 +53,7 @@ function Hero() {
           ut gravida. Tellus sit nulla blandit ac tincidunts.
         </p>
 
-        <button className="text-white px-16 lg:px-8 py-2 bg-[#6187FF] rounded-3xl hover:scale-105 transition duration-[.4s] my-12 lg:mb-48">
+        <button className="text-white px-4 xs:px-16 lg:px-8 py-2 bg-[#6187FF] rounded-3xl hover:scale-105 transition duration-[.4s] my-1 xs:my-12 lg:mb-48">
           Contact Us
         </button>
       </motion.div>

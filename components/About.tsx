@@ -51,15 +51,18 @@ function About() {
         </h2>
       </div>
 
-      <div className="text-center sm:text-start  flex flex-col xl:flex-row items-center md:gap-12 xl:ml-8  xl:justify-center  pt-12  ">
-        <div className="px-8 text-xs sm:text-sm md:flex-1 xl:flex-none text-1xl text-start sm:text-center md:text-start text-[#081944] px-8 sm:px-4 w-96 h-[400px] sm:w-[500px] md:w-[700px] xl:h-96 xl:w-96  opacity-80 ">
-          <p className="text-center xl:text-start">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla
-            magna euismod rhoncus adipiscing pulvinar. Dui volutpat elit
-            tincidunt ullamcorper tincidunt. Volutpat semper ac turpis urna dui
-            id.
-          </p>
-          <ul className="sm:text-center mx-8 xl:text-start list-disc pt-2 sm:ml-4 leading-8">
+      <div className="text-center sm:text-start  flex flex-col xl:flex-row items-center justify-center md:gap-12 xl:ml-8  xl:justify-center  pt-12  ">
+        <div className=" text-xs sm:text-sm md:flex-1 xl:flex-none text-1xl text-center md:text-start text-[#081944] px-2 xs:px-8 sm:px-4 max-w-[400px] max-h-[400px] sm:w-[500px] md:w-[700px] xl:h-96 xl:w-96  opacity-80 ">
+          <div className="text-center ">
+            <p className="w-[70%] mx-auto text-center xl:text-start px-2 xs:px-0">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla
+              magna euismod rhoncus adipiscing pulvinar. Dui volutpat elit
+              tincidunt ullamcorper tincidunt. Volutpat semper ac turpis urna
+              dui id.
+            </p>
+          </div>
+
+          <ul className="w-[70%] text-center m-auto xs:mx-8 xl:text-start list-disc pt-2 sm:ml-4 leading-8">
             <li>
               At leo commodo scelerisque vitae fames metus felis. Ultrices enim
               fermentum, ipsum, nisl.
