@@ -73,7 +73,7 @@ function Header() {
           className={
             nav
               ? "fixed top-0  xs:right-0 w-screen sm:w-[75%] h-screen home ease-in duration-500"
-              : "fixed top-0  right-[-100%]   ease-in duration-500"
+              : "fixed top-0  right-[-200%]   ease-in duration-500"
           }
         >
           <div>

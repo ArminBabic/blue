@@ -29,7 +29,7 @@ function Projects() {
   return (
     <section id="projects" className="bg-[#dce0e9]">
       <div className="text-center lg:text-start py-8">
-        <h2 className="text-[#081944] text-4xl md:text-5xl lg:text-6xl font-bold lg:px-32 md:px-12">
+        <h2 className="text-[#081944] text-4xl md:text-5xl lg:text-6xl font-bold lg:px-16 md:px-12">
           Recent <span className="text-[#5889F1]">Projects</span>
         </h2>
       </div>

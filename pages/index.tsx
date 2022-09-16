@@ -10,6 +10,7 @@ import About from "../components/About";
 import Values from "../components/Values";
 import Projects from "../components/Projects";
 import Why from "../components/Why";
+import Services from "../components/Services";
 
 const Home: NextPage = () => {
   return (
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
         <Hero />
       </section>
       <About />
+      <Services />
       <Projects />
       <Values />
       <Why />

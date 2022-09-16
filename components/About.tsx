@@ -34,15 +34,15 @@ function About() {
   return (
     <section
       id="about"
-      className="bg-[#dce0e9] flex flex-col items-center xl:block "
+      className="bg-[#dce0e9] py-8 flex flex-col items-center lg:items-start lg:pl-16 xl:block "
     >
-      <div className="text-center xl:text-start xl:ml-8 2xl:ml-52">
+      <div className="text-center lg:text-start xl:ml-8 2xl:ml-44">
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold pt-16 lg:pt-32 ">
           Turning Your
         </h2>
         <br />
         <h2 className=" text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold   ">
-          <span className="text-[#5889F1] pr-1 md:pr-8 ">
+          <span className="text-[#5889F1] pr-1  ">
             <HiSparkles className="inline text-[#BED1FB]" />
             Imagination
             <HiSparkles className="inline text-[#6187FF]" />
@@ -52,9 +52,9 @@ function About() {
       </div>
 
       <div className="text-center sm:text-start  flex flex-col xl:flex-row items-center justify-center md:gap-12 xl:ml-8  xl:justify-center  pt-12  ">
-        <div className=" text-xs sm:text-sm md:flex-1 xl:flex-none text-1xl text-center md:text-start text-[#081944] px-2 xs:px-8 sm:px-4 max-w-[400px] max-h-[400px] sm:w-[500px] md:w-[700px] xl:h-96 xl:w-96  opacity-80 ">
-          <div className="text-center ">
-            <p className="w-[70%] mx-auto text-center xl:text-start px-2 xs:px-0">
+        <div className="sm:w-full md:w-[700px] mb-44 xs:mb-2 text-xs sm:text-sm 2xl:text-base md:flex-1 xl:flex-none text-1xl text-center md:text-center text-[#081944] px-2 xs:px-8 sm:px-4 max-w-[235px] xs:max-w-[400px] max-h-[400px] md:max-w-[700px] lg:max-w-[800px] md:max-h-[400px] sm:h-[500px]  xl:h-96 xl:w-96  opacity-80 ">
+          <div className="text-center md:text-start md:w-[99%] ">
+            <p className="w-[99%] mx-auto md:mx-0 text-center lg:text-start px-2 xs:px-0">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla
               magna euismod rhoncus adipiscing pulvinar. Dui volutpat elit
               tincidunt ullamcorper tincidunt. Volutpat semper ac turpis urna
@@ -62,7 +62,7 @@ function About() {
             </p>
           </div>
 
-          <ul className="w-[70%] text-center m-auto xs:mx-8 xl:text-start list-disc pt-2 sm:ml-4 leading-8">
+          <ul className="w-[70%] md:w-[99%] text-center lg:text-start m-auto md:m-0 xl:text-start list-disc pt-2  leading-8">
             <li>
               At leo commodo scelerisque vitae fames metus felis. Ultrices enim
               fermentum, ipsum, nisl.
@@ -78,20 +78,20 @@ function About() {
           </ul>
         </div>
 
-        <div className="md:flex-1 xl:flex-none shadow-2xl max-w-[650px] md:max-w-[730px] flex flex-col md:flex-row items-center max-h-[750]  md:max-h-[850px] xl:h-96 rounded-xl bg-[#e5e7eb]">
-          <div className="pt-4 sm:pt-8 px-4 sm:px-24 md:px-8 md:px-0 md:py-12  md:pl-8 ">
-            <div className="w-[260px] h-[52px] mb-2 md:mb-6   bg-slate-100 rounded-xl flex">
+        <div className="md:flex-1 xl:flex-none shadow-2xl w-[200px] xs:w-[292px]   sm:w-[500px] md:w-[730px] flex flex-col md:flex-row md:justify-center items-center max-h-[750]  md:max-h-[850px] xl:h-96 xl:w-[680px] rounded-xl bg-[#e5e7eb]">
+          <div className="  w-[180px] xs:w-[250px] pt-4 sm:pt-8     md:py-12  ">
+            <div className=" w-[180px] xs:w-[250px] h-[52px] mb-2 md:mb-6   bg-slate-100 rounded-xl flex">
               <div className="bg-[#6187FF] rounded-full flex justify-center items-center px-2 ">
                 <HiPuzzle className="text-white  w-9 h-6 " />
               </div>
-              <h5 className="font-bold px-2">Development customized for you</h5>
+              <h5 className="text-xs xs:text-base font-bold px-2">
+                Development customized for you
+              </h5>
             </div>
-            <div>
+            <div className="w-[180px] xs:w-[250px]">
               <Image
                 src={blankImg}
-                width="273px"
-                height="171px"
-                className="rounded-xl shadow-2xl  "
+                className="rounded-xl shadow-2xl w-[180px] xs:w-[250px]  "
               />
             </div>
           </div>
@@ -99,8 +99,8 @@ function About() {
             <AiOutlineArrowDown className="w-8 h-8 text-indigo-600 md:-rotate-90 md:mx-4" />
           </div>
 
-          <div className="mt-2 md:mt-0  md:py-12  md:pr-8 pb-8 sm:pb-4  ">
-            <div>
+          <div className="w-[180px] xs:w-[250px] mt-2 md:mt-0  md:py-12  md:pr-8 pb-8 sm:pb-4  ">
+            <div className="w-[180px] xs:w-[250px]">
               <Image
                 src={socialImg}
                 width="273px"
@@ -109,68 +109,20 @@ function About() {
               />
             </div>
 
-            <div className="w-[260px] h-[52px] md:mt-6 bg-slate-100 rounded-xl flex">
+            <div className="w-[180px] xs:w-[250px] h-[52px] md:mt-6 bg-slate-100 rounded-xl flex">
               <Image
                 src={smallImg}
                 width="42px"
                 height="28px"
                 className="px-4"
               />
-              <h5 className="font-bold px-4">Design and usability advices</h5>
+              <h5 className="font-bold px-4 text-xs xs:text-base">
+                Design and usability advices
+              </h5>
             </div>
           </div>
         </div>
       </div>
-
-      <motion.div
-        ref={ref}
-        variants={boxVariant}
-        initial="hidden"
-        animate={control}
-        id="services"
-        className=" py-24 lg:px-16 xl:px-0 2xl:flex 2xl:gap-16 lg:p-7 grid md:grid-cols-2 xl:grid-cols-4  gap-4  md:gap-8 lg:gap-16   mt-8 justify-items-center  justify-center items-center"
-      >
-        <article className=" w-64 h-64 2xl:w-80 bg-[#f0f2f6] shadow-2xl rounded-xl flex flex-col items-center justify-center text-center o ">
-          <div className="w-14 h-14 bg-white rounded-2xl rotate-45  mb-5 flex items-center justify-center  ">
-            <HiCode className="-rotate-45 text-[#6187FF] w-8 h-6" />
-          </div>
-          <h5 className="font-bold text-[#081944]">Software Development</h5>
-          <p className="opacity-60 text-[#081944;] pt-3 px-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla
-            magna.
-          </p>
-        </article>
-        <article className=" w-64 h-64 2xl:w-80 bg-[#f0f2f6] shadow-2xl rounded-xl flex flex-col items-center justify-center text-center  ">
-          <div className="w-14 h-14 bg-white rounded-2xl rotate-45  mb-5 flex items-center justify-center ">
-            <BsFillLaptopFill className="-rotate-45 text-[#6187FF] w-9 h-6" />
-          </div>
-          <h5 className="font-bold text-[#081944]">Website Development</h5>
-          <p className="opacity-60 text-[#081944;] px-2 pt-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla
-            magna.
-          </p>
-        </article>
-        <article className=" w-64 h-64 2xl:w-80 bg-[#f0f2f6] shadow-2xl rounded-xl flex flex-col items-center justify-center text-center ">
-          <div className="w-14 h-14 bg-white rounded-2xl rotate-45  mb-5 flex items-center justify-center ">
-            <MdDesignServices className="-rotate-45 text-[#6187FF] w-9 h-6" />
-          </div>
-          <h5 className="font-bold text-[#081944]">UX/UI £ Graphic Design</h5>
-          <p className="opacity-60 text-[#081944;] px-2 pt-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla
-            magna.
-          </p>
-        </article>
-        <article className=" w-64 h-64 2xl:w-80 bg-[#f0f2f6] shadow-2xl rounded-xl flex flex-col items-center justify-center text-center  ">
-          <div className="w-14 h-14 bg-white rounded-2xl rotate-45  mb-5 flex items-center justify-center ">
-            <HiChatAlt2 className="-rotate-45 text-[#6187FF] w-9 h-6" />
-          </div>
-          <h5 className="font-bold text-[#081944]">Digital Marketing</h5>
-          <p className="opacity-60 text-[#081944;] px-2 pt-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla
-            magna.
-          </p>
-        </article>
-      </motion.div>
     </section>
   );
 }
