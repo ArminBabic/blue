@@ -1,9 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
 
-import bg from "../images/bg.png";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import About from "../components/About";
@@ -12,7 +9,6 @@ import Projects from "../components/Projects";
 import Why from "../components/Why";
 import Services from "../components/Services";
 import Contact from "../components/Contact";
-import Team from "../components/Team";
 
 const Home: NextPage = () => {
   return (
@@ -30,7 +26,6 @@ const Home: NextPage = () => {
       <Projects />
       <Values />
       <Why />
-      <Team />
 
       <Contact />
 
