@@ -58,7 +58,7 @@ function Hero() {
         </button>
       </motion.div>
 
-      <article className="sm:col-span-1 my-2 xs:my-3 w-[80%]  sm:w-[205px] lg:h-[60px]     flex items-center   lg:absolute top-52 right-72 xl:max-w-[217px] max-h-[100px] xs:max-h-[52px] backdrop-opacity-10 backdrop-invert bg-white/20 rounded-xl ">
+      <article className="sm:col-span-1 my-2 xs:my-3 w-[80%]  sm:w-[205px] lg:h-[60px]     flex items-center   lg:absolute top-52 right-52 3xl:top-52 3xl:right-72  xl:max-w-[217px] max-h-[100px] xs:max-h-[52px] backdrop-opacity-10 backdrop-invert bg-white/20 rounded-xl ">
         <div className="bg-indigo-500 flex justify-center items-center p-2 m-2 rounded-full">
           <HiChatAlt2 className="img-popup text-white w-7 h-7 " />
         </div>
@@ -68,7 +68,7 @@ function Hero() {
           </p>
         </div>
       </article>
-      <article className="sm:col-span-1 my-2 xs:my-3 w-[80%]  sm:w-[205px] lg:h-[60px]   flex items-center lg:justify-around   lg:absolute bottom-80 right-[580px]  2xl:max-w-[217px] max-h-[100px] xs:max-h-[58px] backdrop-opacity-10 backdrop-invert bg-white/20 rounded-xl  ">
+      <article className="sm:col-span-1 my-2 xs:my-3 w-[80%]  sm:w-[205px] lg:h-[60px]   flex items-center lg:justify-around   lg:absolute bottom-56 xl:bottom-72   right-56 3xl:bottom-80 3xl:right-[580px]  2xl:max-w-[217px] max-h-[100px] xs:max-h-[58px] backdrop-opacity-10 backdrop-invert bg-white/20 rounded-xl  ">
         <div className="flex items-center p-2 m-2">
           <Image
             className=" w-[42px] h-[42px] mx-2"
@@ -83,7 +83,7 @@ function Hero() {
           </p>
         </div>
       </article>
-      <article className="sm:col-span-1 my-2 xs:my-3 w-[80%]   sm:w-[205px] lg:h-[60px]    flex items-center   lg:absolute bottom-32 opacity-80 right-80 xl:max-w-[217px] max-h-[100px] xs:max-h-[52px]  backdrop-opacity-10 backdrop-invert bg-white/20 rounded-xl ">
+      <article className="sm:col-span-1 my-2 xs:my-3 w-[80%]   sm:w-[205px] lg:h-[60px]    flex items-center   lg:absolute bottom-32 right-52  3xl:bottom-32 3xl:right-80 opacity-80 xl:max-w-[217px] max-h-[100px] xs:max-h-[52px]  backdrop-opacity-10 backdrop-invert bg-white/20 rounded-xl ">
         <div className="bg-[#6187FF] flex justify-center items-center p-2 rounded-full m-2">
           <HiLightBulb className="text-white w-6 h-6" />
         </div>

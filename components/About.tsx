@@ -52,7 +52,7 @@ function About() {
       </div>
 
       <div className="text-center sm:text-start  flex flex-col xl:flex-row items-center justify-center md:gap-12 xl:ml-8  xl:justify-center  pt-12  ">
-        <div className="sm:w-full md:w-[700px] mb-44 xs:mb-2 text-xs sm:text-sm 2xl:text-base md:flex-1 xl:flex-none text-1xl text-center md:text-center text-[#081944] px-2 xs:px-8 sm:px-4 max-w-[235px] xs:max-w-[400px] max-h-[400px] md:max-w-[700px] lg:max-w-[800px] md:max-h-[400px] sm:h-[500px]  xl:h-96 xl:w-96  opacity-80 ">
+        <div className="sm:w-full md:w-[700px] mb-48 xs:mb-2 text-xs sm:text-sm 2xl:text-base md:flex-1 xl:flex-none text-1xl text-center md:text-center text-[#081944] px-2 xs:px-8 sm:px-4 max-w-[235px] xs:max-w-[400px] max-h-[400px] md:max-w-[700px] lg:max-w-[800px] md:max-h-[400px] sm:h-[500px]  xl:h-96 xl:w-96  opacity-80 ">
           <div className="text-center md:text-start md:w-[99%] ">
             <p className="w-[99%] mx-auto md:mx-0 text-center lg:text-start px-2 xs:px-0">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla

@@ -11,6 +11,7 @@ import Values from "../components/Values";
 import Projects from "../components/Projects";
 import Why from "../components/Why";
 import Services from "../components/Services";
+import Contact from "../components/Contact";
 
 const Home: NextPage = () => {
   return (
@@ -28,6 +29,8 @@ const Home: NextPage = () => {
       <Projects />
       <Values />
       <Why />
+
+      <Contact />
 
       <main>
         <section></section>

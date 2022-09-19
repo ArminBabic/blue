@@ -24,6 +24,14 @@ html {
     );
   }
 
+  .contact {
+    background: radial-gradient(
+      105.62% 158.43% at -15.26% 138.38%,
+      #f5f8ff 0%,
+      #5889f1 100%
+    );
+  }
+
   header {
     @apply flex items-center justify-between  py-4  transition-all lg:px-1 lg:py-5;
   }
