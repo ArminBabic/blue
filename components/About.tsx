@@ -36,19 +36,22 @@ function About() {
       id="about"
       className="bg-[#dce0e9] py-8 flex flex-col items-center lg:items-start lg:pl-16 xl:block "
     >
-      <div className="text-center lg:text-start xl:ml-8 2xl:ml-44">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold pt-16 lg:pt-32 ">
-          Turning Your
-        </h2>
-        <br />
-        <h2 className=" text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold   ">
-          <span className="text-[#5889F1] pr-1  ">
-            <HiSparkles className="inline text-[#BED1FB]" />
-            Imagination
-            <HiSparkles className="inline text-[#6187FF]" />
-          </span>
-          Into Reality
-        </h2>
+      <div className="w-full flex justify-center lg:justify-end">
+        <div className="text-center lg:text-start lg:w-[99%] xl:w-[97%] 2xl:w-[85%] 3xl:w-[80%] ">
+          {" "}
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold pt-16 lg:pt-32 ">
+            Turning Your
+          </h2>
+          <br />
+          <h2 className=" text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold   ">
+            <span className="text-[#5889F1] pr-1  ">
+              <HiSparkles className="inline text-[#BED1FB]" />
+              Imagination
+              <HiSparkles className="inline text-[#6187FF]" />
+            </span>
+            Into Reality
+          </h2>
+        </div>
       </div>
 
       <div className="text-center sm:text-start  flex flex-col xl:flex-row items-center justify-center md:gap-12 xl:ml-8  xl:justify-center  pt-12  ">

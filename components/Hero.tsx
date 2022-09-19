@@ -68,7 +68,7 @@ function Hero() {
           </p>
         </div>
       </article>
-      <article className="sm:col-span-1 my-2 xs:my-3 w-[80%]  sm:w-[205px] lg:h-[60px]   flex items-center lg:justify-around   lg:absolute bottom-56 xl:bottom-72   right-56 3xl:bottom-80 3xl:right-[580px]  2xl:max-w-[217px] max-h-[100px] xs:max-h-[58px] backdrop-opacity-10 backdrop-invert bg-white/20 rounded-xl  ">
+      <article className="sm:col-span-1 my-2 xs:my-3 w-[80%]  sm:w-[205px] lg:h-[60px]   flex items-center lg:justify-around   lg:absolute bottom-56 lg:bottom-36 lg:right-[500px]  right-56 3xl:bottom-80 3xl:right-[580px]  2xl:max-w-[217px] max-h-[100px] xs:max-h-[58px] backdrop-opacity-10 backdrop-invert bg-white/20 rounded-xl  ">
         <div className="flex items-center p-2 m-2">
           <Image
             className=" w-[42px] h-[42px] mx-2"

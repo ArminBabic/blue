@@ -10,7 +10,7 @@ function Contact() {
     <section className="contact flex  justify-around gap-4">
       <div className="text-white w-[80%] flex flex-col md:flex-row justify-around gap-2 py-20">
         <div className="w-full md:w-[49%] flex flex-col  justify-center md:justify-start">
-          <h5 className="sm:text-3xl lg:text-5xl xl:text-6xl font-bold">
+          <h5 className="xs:text-2xl sm:text-3xl lg:text-5xl xl:text-6xl font-bold">
             Let's Connect!
           </h5>
           <p className="py-4 text-xs xs:text-base">
@@ -45,7 +45,7 @@ function Contact() {
                 <input
                   type="text"
                   placeholder="Full Name"
-                  className="bg-inherit w-full  h-10 md:h-12  pl-4 border border-white rounded-xl"
+                  className="placeholder-white bg-inherit w-full  h-10 md:h-12  pl-4 border border-white rounded-xl"
                 />
               </div>
               <div className="w-full">
@@ -53,7 +53,7 @@ function Contact() {
                 <input
                   type="email"
                   placeholder="Your Email"
-                  className="bg-inherit w-full  h-10 md:h-12  pl-4 border border-white rounded-xl"
+                  className="placeholder-white bg-inherit w-full  h-10 md:h-12  pl-4 border border-white rounded-xl"
                 />
               </div>
             </div>
@@ -61,7 +61,7 @@ function Contact() {
             <input
               type="text"
               placeholder="Your Message"
-              className="bg-inherit w-[100%] pb-56 pl-4  pt-4 border border-white  rounded-xl my-4"
+              className="placeholder-white bg-inherit w-[100%] pb-56 pl-4  pt-4 border border-white  rounded-xl my-4"
             />
 
             <div className="text-end ">
