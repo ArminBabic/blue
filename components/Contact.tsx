@@ -32,7 +32,7 @@ function Contact() {
             <p>Ghegagasse 17, Graz, Austria</p>
           </div>
 
-          <div>
+          <div className="hidden md:block">
             <Image src={arrow} />
           </div>
         </div>
